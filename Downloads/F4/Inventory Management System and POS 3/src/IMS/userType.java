@@ -88,13 +88,13 @@ public class userType extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(51, 51, 51));
         jLabel1.setText("Inventory Management System");
         jPanel4.add(jLabel1);
-        jLabel1.setBounds(470, 190, 260, 23);
+        jLabel1.setBounds(470, 190, 260, 24);
 
         jLabel3.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(51, 51, 51));
         jLabel3.setText("POS System");
         jPanel4.add(jLabel3);
-        jLabel3.setBounds(550, 390, 110, 23);
+        jLabel3.setBounds(550, 390, 110, 24);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

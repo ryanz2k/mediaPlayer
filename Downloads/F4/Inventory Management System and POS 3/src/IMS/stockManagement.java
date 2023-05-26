@@ -80,7 +80,7 @@ public class stockManagement extends javax.swing.JFrame {
         descripLabel.setForeground(new java.awt.Color(51, 51, 51));
         descripLabel.setText("Description");
         editPanel.add(descripLabel);
-        descripLabel.setBounds(20, 40, 83, 40);
+        descripLabel.setBounds(20, 40, 76, 40);
 
         priceText.setEditable(false);
         editPanel.add(priceText);
@@ -88,19 +88,19 @@ public class stockManagement extends javax.swing.JFrame {
 
         descripText.setEditable(false);
         editPanel.add(descripText);
-        descripText.setBounds(110, 50, 190, 23);
+        descripText.setBounds(110, 50, 190, 22);
 
         quantityLabel.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         quantityLabel.setForeground(new java.awt.Color(51, 51, 51));
         quantityLabel.setText("Quantity");
         editPanel.add(quantityLabel);
-        quantityLabel.setBounds(20, 80, 63, 40);
+        quantityLabel.setBounds(20, 80, 57, 40);
 
         priceLabel.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         priceLabel.setForeground(new java.awt.Color(51, 51, 51));
         priceLabel.setText("Price ($)");
         editPanel.add(priceLabel);
-        priceLabel.setBounds(20, 130, 59, 23);
+        priceLabel.setBounds(20, 130, 56, 23);
 
         quantityText.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -108,7 +108,7 @@ public class stockManagement extends javax.swing.JFrame {
             }
         });
         editPanel.add(quantityText);
-        quantityText.setBounds(110, 90, 190, 23);
+        quantityText.setBounds(110, 90, 190, 22);
 
         productList.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select a Product", "Chardonnay Wine", "Cabernet Sauvignon Wine", "Stout Beer", "Schwarzbier", "Scotch Whisky", "Bourbon Whisky", "Plymouth Gin", "Old Tom Gin", "Sweet Cider", "Bitter Cider", "Fruit Vodka", "Plain Vodka", "Distilled Soju", "Navy Rum", "Rhum Agricole" }));
         productList.addActionListener(new java.awt.event.ActionListener() {
@@ -117,7 +117,7 @@ public class stockManagement extends javax.swing.JFrame {
             }
         });
         editPanel.add(productList);
-        productList.setBounds(110, 10, 190, 23);
+        productList.setBounds(110, 10, 190, 22);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -199,7 +199,7 @@ public class stockManagement extends javax.swing.JFrame {
             }
         });
         editPanel.add(backupButton);
-        backupButton.setBounds(160, 250, 140, 23);
+        backupButton.setBounds(160, 250, 140, 27);
 
         budget.setBackground(new java.awt.Color(102, 102, 102));
         budget.setFont(new java.awt.Font("Segoe UI", 1, 28)); // NOI18N
@@ -212,7 +212,7 @@ public class stockManagement extends javax.swing.JFrame {
         budgetLabel.setForeground(new java.awt.Color(102, 102, 102));
         budgetLabel.setText("BUDGET: $");
         editPanel.add(budgetLabel);
-        budgetLabel.setBounds(10, 280, 152, 70);
+        budgetLabel.setBounds(10, 280, 142, 70);
 
         logout.setBackground(new java.awt.Color(102, 102, 102));
         logout.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -224,7 +224,7 @@ public class stockManagement extends javax.swing.JFrame {
             }
         });
         editPanel.add(logout);
-        logout.setBounds(150, 350, 150, 23);
+        logout.setBounds(150, 350, 150, 27);
 
         jPanel1.add(editPanel);
         editPanel.setBounds(10, 200, 310, 390);
